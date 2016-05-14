@@ -1,3 +1,5 @@
+from itertools import count, islice
+from math import sqrt
 
 def check_prime(n):
     if n < 2: return False

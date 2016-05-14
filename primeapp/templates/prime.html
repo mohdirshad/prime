@@ -1,0 +1,9 @@
+<H1>Enter number to get nth prime number</H1>
+<form action="." method="POST">
+{% csrf_token %}
+{{form.as_p}}
+
+{{number}}<br>
+<input type="submit" value="SUBMIT">
+</form>
+
