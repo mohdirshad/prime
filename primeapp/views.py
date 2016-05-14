@@ -6,9 +6,6 @@ from .forms import PrimeForm
 class MyView(View):
 	template_name = 'form_template.html'
 	form_class = PrimeForm
-    def get(self, request):
-        # <view logic
-        return HttpResponse('result')
 
 
     def post(self, request, *args, **kwargs):
