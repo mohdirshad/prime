@@ -67,6 +67,16 @@ TEMPLATE_DIRS = (
 )
 
 
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+
+STATIC_URL = '/static/'
+
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "static"),
+   # location('static'),
+)
+
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
